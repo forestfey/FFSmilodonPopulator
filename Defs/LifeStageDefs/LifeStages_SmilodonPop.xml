@@ -2,24 +2,24 @@
 <Defs>
 
   <LifeStageDef>
-    <defName>AnimalBaby</defName>
+    <defName>AnimalBabyFF</defName>
     <label>baby</label>
     <voxPitch>1.6</voxPitch>
     <voxVolume>0.8</voxVolume>
-    <bodySizeFactor>0.25</bodySizeFactor>
+    <bodySizeFactor>0.125</bodySizeFactor>
     <healthScaleFactor>0.25</healthScaleFactor>
-    <hungerRateFactor>0.4</hungerRateFactor>
-    <marketValueFactor>0.4</marketValueFactor>
+    <hungerRateFactor>0.5</hungerRateFactor>
+    <marketValueFactor>0.35</marketValueFactor>
     <statFactors>
-      <MoveSpeed>0.5</MoveSpeed>
+      <MoveSpeed>0.6</MoveSpeed>
     </statFactors>
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>AnimalJuvenile</defName>
+    <defName>AnimalJuvenileFF</defName>
     <label>juvenile</label>
     <voxPitch>1.2</voxPitch>
-    <bodySizeFactor>0.5</bodySizeFactor>
+    <bodySizeFactor>0.3</bodySizeFactor>
     <healthScaleFactor>0.6</healthScaleFactor>
     <hungerRateFactor>0.75</hungerRateFactor>
     <marketValueFactor>0.75</marketValueFactor>
@@ -29,25 +29,23 @@
   </LifeStageDef>
 
   <LifeStageDef>
-    <defName>AnimalAdult</defName>
+    <defName>AnimalAdultFF</defName>
     <label>adult</label>
     <visible>false</visible>
     <reproductive>true</reproductive>
-    <milkable>true</milkable>
-    <shearable>true</shearable>
   </LifeStageDef>
   
   <LifeStageDef>
-    <defName>AnimalSenior</defName>
+    <defName>AnimalSeniorFF</defName>
     <label>senior</label>
-    <voxPitch>0.9</voxPitch>
+    <voxPitch>0.85</voxPitch>
+	<bodySizeFactor>1.45</bodySizeFactor>
     <hungerRateFactor>0.9</hungerRateFactor>
-    <statFactors>
+    <marketValueFactor>1.2</marketValueFactor>
+     <statFactors>
       <MoveSpeed>0.95</MoveSpeed>
     </statFactors>
     <reproductive>true</reproductive>
-    <milkable>true</milkable>
-    <shearable>true</shearable>
   </LifeStageDef>
   
   
