@@ -1,7 +1,7 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-<ThingDef Name="BasePawn" Abstract="True">
+<ThingDef ParentName="BasePawn" Name="BasePawnFF" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>
     <selectable>true</selectable>
@@ -10,9 +10,6 @@
     <useHitPoints>false</useHitPoints>
     <hasTooltip>true</hasTooltip>
     <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
-    <statBases>
-      <Mass>70</Mass>
-    </statBases>
     <inspectorTabs>
       <li>ITab_Pawn_Health</li>
       <li>ITab_Pawn_Needs</li>
@@ -31,7 +28,7 @@
     <drawGUIOverlay>true</drawGUIOverlay>
   </ThingDef>
 
-  <ThingDef ParentName="BasePawn" Name="AnimalThingBase" Abstract="True">
+  <ThingDef ParentName="BasePawnFF" Name="AnimalThingBaseFF" Abstract="True">
     <statBases>
       <Flammability>1.0</Flammability>
       <LeatherAmount>25</LeatherAmount>
@@ -56,12 +53,12 @@
     </recipes>
   </ThingDef>
 
-  <PawnKindDef Name="AnimalKindBase" Abstract="True">
+  <PawnKindDef Name="AnimalKindBaseFF" Abstract="True">
   </PawnKindDef>
 
   <!--===============================================-->
 
-  <ThingDef ParentName="AnimalThingBase">
+  <ThingDef ParentName="AnimalThingBaseFF">
     <defName>SmilodonPop</defName>
     <label>Big Sabretooth Cat</label>
     <description>The prehistoric Smilodon Populator (LUND, A.D. 1842), also known as the biggest of the true sabre-toothed cats, still has a legedary reputation across the whole galaxy. Having already been extinct when humanity had cemented its global-player position in the foodchain of Old Earth, some scientists apparently thought it was a good idea to revive this hominid's Nemesis through advanced cloning techniques. 
@@ -72,6 +69,7 @@ Adaptions of the bone-structure in the legs further hint on S. Populator having 
 Tribal cultures on planets where a wild population could establish itself, worship S. Populator as a harbinger of death, a powerful totem that bestows not only physical prowess, but also a to others sometimes uncanny covert- and relentlessness. Those cultures also pass on fairy tales about heroic Sabretooth-Veterans that are not only a terrifying sight to behold, but also seem to show an almost human spark of cognition, not to say "intelligence", sometimes even to the point of attributing to them the ability of speech.</description>
 
 <statBases>
+      <Mass>275</Mass>
       <MoveSpeed>7.0</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>1000</MarketValue>
@@ -124,13 +122,28 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       </li>
     </verbs>
     <race>
+	<packAnimal>true</packAnimal>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
-      <baseBodySize>2.00</baseBodySize>
+      <baseBodySize>1.00</baseBodySize>
       <baseHungerRate>0.4</baseHungerRate>
       <baseHealthScale>2.75</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+
+	<wildBiomes>
+	<Tundra>0.025</Tundra>
+	<IceSheet>0.008</IceSheet>
+	<SeaIce>0.0025</SeaIce>
+	<TropicalRainforest>0.035</TropicalRainforest>
+	<TemperateForest>0.04</TemperateForest>
+	<BorealForest>0.035</BorealForest>
+	<AridShrubland>0.025</AridShrubland>
+	<Desert>0.008</Desert>
+	<ExtremeDesert>0.0025</ExtremeDesert>
+	<Cave>0.05</Cave>
+        </wildBiomes>
+
       <leatherInsulation>1.5</leatherInsulation>
 	<leatherCommonalityFactor>0.25</leatherCommonalityFactor>
 	      <leatherMarketValueFactor>2.5</leatherMarketValueFactor>
@@ -139,6 +152,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
 	        <ArmorRating_Sharp>1.75</ArmorRating_Sharp>
 	        <ArmorRating_Heat>1.50</ArmorRating_Heat>
 	      	</leatherStatFactors>
+      <trainableIntelligence>Advanced</trainableIntelligence>
       <wildness>0.95</wildness>
       <manhunterOnTameFailChance>0.020</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -146,15 +160,15 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       <lifeExpectancy>25</lifeExpectancy>
 	<lifeStageAges>
 	        <li>
-	          <def>AnimalBaby</def>
+	          <def>AnimalBabyFF</def>
 	          <minAge>0.0</minAge>
 	        </li>
 	        <li>
-	          <def>AnimalJuvenile</def>
+	          <def>AnimalJuvenileFF</def>
 	          <minAge>1.0</minAge>
 	        </li>
 	        <li>
-	          <def>AnimalAdult</def>
+	          <def>AnimalAdultFF</def>
 	          <minAge>3.5</minAge>
 	          <soundWounded>Pawn_SmilodonPop_Wounded</soundWounded>
 		  <soundCall>Pawn_SmilodonPop_Call</soundCall>
@@ -162,7 +176,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
 	          <soundAngry>Pawn_SmilodonPop_Angry</soundAngry>
 		 </li>
 			<li>
-	          	<def>AnimalSenior</def>
+	          	<def>AnimalSeniorFF</def>
 	          	<minAge>12.5</minAge>
 	          	<soundWounded>Pawn_SmilodonPop_Wounded</soundWounded>
 			<soundCall>Pawn_SmilodonPop_Call</soundCall>
@@ -175,7 +189,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
      <leatherLabel>big smilodonskin</leatherLabel>
       <leatherColor>(177,136,112)</leatherColor>
-	<meatLabel>big smilodon</meatLabel>
+	<meatLabel>big smilodon</meatLabel>	 
     </race>
 	<tradeTags>
       <li>StandardAnimal</li>
@@ -183,7 +197,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
     </tradeTags>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBase">
+  <PawnKindDef ParentName="AnimalKindBaseFF">
     <defName>SmilodonPop</defName>
     <label>Big Sabretooth Cat</label>
     <race>SmilodonPop</race>
@@ -203,7 +217,8 @@ Tribal cultures on planets where a wild population could establish itself, worsh
         </dessicatedBodyGraphicData>
       </li>
       <li>
-        <bodyGraphicData>
+        <label>Smilodon adolescent</label>
+	  <bodyGraphicData>
           <texPath>Things/Pawn/Animal/SmilodonPop/Juvenile/SmilodonJuv</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
@@ -231,6 +246,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
         </dessicatedBodyGraphicData>
       </li>
 		<li>
+		<label>Smilodon veteran</label>
         	<bodyGraphicData>
           	<texPath>Things/Pawn/Animal/SmilodonPop/Veteran/SmilodonVet</texPath>
           	<drawSize>3.0</drawSize>
