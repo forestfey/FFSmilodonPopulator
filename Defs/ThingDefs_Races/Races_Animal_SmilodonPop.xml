@@ -1,64 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-<ThingDef ParentName="BasePawn" Name="BasePawnFF" Abstract="True">
-    <thingClass>Pawn</thingClass>
-    <category>Pawn</category>
-    <selectable>true</selectable>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Pawn</altitudeLayer>
-    <useHitPoints>false</useHitPoints>
-    <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
-    <inspectorTabs>
-      <li>ITab_Pawn_Health</li>
-      <li>ITab_Pawn_Needs</li>
-      <li>ITab_Pawn_Character</li>
-      <li>ITab_Pawn_Training</li>
-      <li>ITab_Pawn_Gear</li>
-      <li>ITab_Pawn_Guest</li>
-      <li>ITab_Pawn_Prisoner</li>
-      <li>ITab_Pawn_Social</li>
-    </inspectorTabs>
-    <comps>
-      <li>
-        <compClass>CompAttachBase</compClass>
-      </li>
-    </comps>
-    <drawGUIOverlay>true</drawGUIOverlay>
-  </ThingDef>
 
-  <ThingDef ParentName="BasePawnFF" Name="AnimalThingBaseFF" Abstract="True">
-    <statBases>
-      <Flammability>1.0</Flammability>
-      <LeatherAmount>25</LeatherAmount>
-    </statBases>
-    <race>
-      <thinkTreeMain>Animal</thinkTreeMain>
-      <thinkTreeConstant>AnimalConstant</thinkTreeConstant>
-      <hasGenders>true</hasGenders>
-      <nameGenerator>NamerAnimalGenericMale</nameGenerator>
-      <nameGeneratorFemale>NamerAnimalGenericFemale</nameGeneratorFemale>
-      <manhunterOnDamageChance>0.0125</manhunterOnDamageChance>
-      <manhunterOnTameFailChance>0.005</manhunterOnTameFailChance>
-      <nameOnNuzzleChance>0.5</nameOnNuzzleChance>
-      <hediffGiverSets>
-        <li>OrganicStandard</li>
-      </hediffGiverSets>
-    </race>
-    <recipes>
-			<li>ExciseCarcinoma</li>
-      <li>RemoveBodyPart</li>
-      <li>Euthanize</li>
-    </recipes>
-  </ThingDef>
-
-  <PawnKindDef Name="AnimalKindBaseFF" Abstract="True">
-  </PawnKindDef>
-
-  <!--===============================================-->
-
-  <ThingDef ParentName="AnimalThingBaseFF" ADogSaidBody="LegsTail">
+  <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
     <defName>SmilodonPop</defName>
     <label>Big Sabretooth Cat</label>
     <description>The prehistoric Smilodon Populator (LUND, A.D. 1842), also known as the biggest of the true sabre-toothed cats, still has a legedary reputation across the whole galaxy. Having already been extinct when humanity had cemented its global-player position in the foodchain of Old Earth, some scientists apparently thought it was a good idea to revive this hominid's Nemesis through advanced cloning techniques. 
@@ -197,7 +141,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
     </tradeTags>
   </ThingDef>
 
-  <PawnKindDef ParentName="AnimalKindBaseFF">
+  <PawnKindDef ParentName="AnimalKindBase">
     <defName>SmilodonPop</defName>
     <label>Big Sabretooth Cat</label>
     <race>SmilodonPop</race>
