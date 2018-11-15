@@ -58,7 +58,7 @@
 
   <!--===============================================-->
 
-  <ThingDef ParentName="AnimalThingBaseFF">
+  <ThingDef ParentName="AnimalThingBaseFF" ADogSaidBody="LegsTail">
     <defName>SmilodonPop</defName>
     <label>Big Sabretooth Cat</label>
     <description>The prehistoric Smilodon Populator (LUND, A.D. 1842), also known as the biggest of the true sabre-toothed cats, still has a legedary reputation across the whole galaxy. Having already been extinct when humanity had cemented its global-player position in the foodchain of Old Earth, some scientists apparently thought it was a good idea to revive this hominid's Nemesis through advanced cloning techniques. 
@@ -141,7 +141,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
 	<AridShrubland>0.025</AridShrubland>
 	<Desert>0.008</Desert>
 	<ExtremeDesert>0.0025</ExtremeDesert>
-	<Cave>0.05</Cave>
+	<!--<Cave>0.05</Cave> -->
         </wildBiomes>
 
       <leatherInsulation>1.5</leatherInsulation>
@@ -189,7 +189,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
      <leatherLabel>big smilodonskin</leatherLabel>
       <leatherColor>(177,136,112)</leatherColor>
-	<meatLabel>big smilodon</meatLabel>	 
+	<meatLabel>smilodon meat</meatLabel>	 
     </race>
 	<tradeTags>
       <li>StandardAnimal</li>

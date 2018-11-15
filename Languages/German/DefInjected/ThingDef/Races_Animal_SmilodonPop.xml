@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <SmilodonPop.label>Säbelzahnkatze</SmilodonPop.label>
+  <SmilodonPop.description>Smilodon Populator (LUND, A.D. 1842), auch bekannt als die größte der prähistorischen Säbelzahnkatzen, hat noch immer einen legendären Ruf in der gesamten Galaxie. Schon ausgestorben als der Mensch seine Rolle an der Spitze der irdischen Nahrungskette zementiert hatte, hielten es einige Wissenschaftler offenbar für eine gute Idee, diese Geißel der Frühmenschen durch fortschrittliche Klontechnologie wieder zum Leben zu erwecken.
+
+Es ist immer noch recht unklar, welche Funktion die enormen Fangzähne erfüllen, da ihre vergleichbar zerbrechliche Statik eine regelmäßige und erfolgreiche Nutzung als Waffe verbietet; Die Proportionen und Winkel von Kiefer und Zahnspitzen weisen jedoch darauf hin, dass Smilodon große Beutetiere nach dem Zu-Boden-Ringen mit schneidenden Bissen erledigt hat, möglicherweise mit resultierender Punktierung der Halsschlagadern, wie es bei dem Todesbiss rezenter Großkatzen üblich ist. Anpassungen der Beinknochenstruktur lassen darauf schließen, dass S. Populator exzellente Sprung- und Ringkampffähigkeiten hat. Verhaltensforscher merken jedoch im Allgemeinen an, dass es bedauernswert wenige Anekdoten von Überlebenden oder Zeugen von Säbelzahnkatzen-Angriffen zur Bestätigung dieser Verhaltensweisen gibt.
+
+Stammeskulturen auf Planeten mit einer etablierten Wildpopulation, beten S. Populator als einen Todesbringer an, ein starkes Totem, welches nicht nur physische Stärke, sondern auch eine für Andere oftmals unheimliche Verstohlenheit und Gnadenlosigkeit verleiht. Diese Kulturen erzählen auch Märchen über heroische Säbelzahnveteranen, die nicht nur furchteinflößend anzusehen sind, sondern auch einen fast menschlichen Funken"Intelligenz" besitzen, bishin zu einer Zuschreibung von Sprachfähigkeit.</SmilodonPop.description>
+  <SmilodonPop_Leather.label>Säbelzahnhaut</SmilodonPop_Leather.label>
+  <SmilodonPop_Leather.description>Die Haut einer Säbelzahnkatze.</SmilodonPop_Leather.description>
+  <SmilodonPop_Leather.stuffProps.stuffAdjective>Säbelzahnhaut</SmilodonPop_Leather.stuffProps.stuffAdjective>
+  <SmilodonPop_Meat.label>Säbelzahnfleisch</SmilodonPop_Meat.label>
+  <SmilodonPop_Meat.description>Das Fleisch einer Säbelzahnkatze.</SmilodonPop_Meat.description>
+  <SmilodonPop_Corpse.label>Tote Säbelzahnkatze</SmilodonPop_Corpse.label>
+  <SmilodonPop_Corpse.description>Der Kadaver einer Säbelzahnkatze.</SmilodonPop_Corpse.description>
+  
+</LanguageData>

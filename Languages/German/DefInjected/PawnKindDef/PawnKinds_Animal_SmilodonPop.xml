@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+  <SmilodonPop.label>Säbelzahnkatze</SmilodonPop.label>
+  <SmilodonPop.lifeStages.0.label>Säbelzahnwelpe</SmilodonPop.lifeStages.0.label>
+  <SmilodonPop.lifeStages.1.label>Säbelzahnjungtier</SmilodonPop.lifeStages.1.label>
+  <SmilodonPop.lifeStages.2.label>Säbelzahnkatze</SmilodonPop.lifeStages.2.label>
+  <SmilodonPop.lifeStages.3.label>Säbelzahnveteran</SmilodonPop.lifeStages.3.label>
+
+</LanguageData>
