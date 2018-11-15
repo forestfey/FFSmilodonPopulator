@@ -18,55 +18,71 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
       <MarketValue>1000</MarketValue>
     </statBases>
-    <verbs>
+    <tools>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.35</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>left claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontLeftPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.35</defaultCooldownTime>
-        <meleeDamageBaseAmount>15</meleeDamageBaseAmount>
-        <meleeDamageDef>Scratch</meleeDamageDef>
+        <label>right claw</label>
+        <capacities>
+          <li>Scratch</li>
+        </capacities>
+        <power>11</power>
+        <cooldownTime>1.5</cooldownTime>
         <linkedBodyPartsGroup>FrontRightPaw</linkedBodyPartsGroup>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
       <li>
-        <verbClass>Verb_MeleeAttack</verbClass>
-        <defaultCooldownTime>1.85</defaultCooldownTime>
-        <meleeDamageBaseAmount>20</meleeDamageBaseAmount>
-        <meleeDamageDef>Bite</meleeDamageDef>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>16</power>
+        <cooldownTime>2</cooldownTime>
         <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <chanceFactor>0.7</chanceFactor>
         <surpriseAttack>
           <extraMeleeDamages>
             <li>
               <def>Stun</def>
-              <amount>20</amount>
+              <amount>14</amount>
             </li>
           </extraMeleeDamages>
         </surpriseAttack>
       </li>
-    </verbs>
+      <li>
+        <label>head</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+    </tools>
     <race>
-	<packAnimal>true</packAnimal>
       <body>QuadrupedAnimalWithPawsAndTail</body>
       <herdAnimal>false</herdAnimal>
       <predator>true</predator>
@@ -85,18 +101,12 @@ Tribal cultures on planets where a wild population could establish itself, worsh
 	<AridShrubland>0.025</AridShrubland>
 	<Desert>0.008</Desert>
 	<ExtremeDesert>0.0025</ExtremeDesert>
-	<!--<Cave>0.05</Cave> -->
+	<!-- <Cave>0.05</Cave> -->
         </wildBiomes>
 
-      <leatherInsulation>1.5</leatherInsulation>
-	<leatherCommonalityFactor>0.25</leatherCommonalityFactor>
-	      <leatherMarketValueFactor>2.5</leatherMarketValueFactor>
-		<leatherStatFactors>
-	        <ArmorRating_Blunt>1.50</ArmorRating_Blunt>
-	        <ArmorRating_Sharp>1.75</ArmorRating_Sharp>
-	        <ArmorRating_Heat>1.50</ArmorRating_Heat>
-	      	</leatherStatFactors>
-      <trainableIntelligence>Advanced</trainableIntelligence>
+      <leatherDef>Leather_Panthera</leatherDef>
+      <trainability>Advanced</trainability>
+	  <packAnimal>true</packAnimal>
       <wildness>0.95</wildness>
       <manhunterOnTameFailChance>0.020</manhunterOnTameFailChance>
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
@@ -130,10 +140,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
 	 </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
-     <leatherLabel>big smilodonskin</leatherLabel>
-      <leatherColor>(177,136,112)</leatherColor>
-	<meatLabel>smilodon meat</meatLabel>	 
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss> 
     </race>
 	<tradeTags>
       <li>StandardAnimal</li>
@@ -146,8 +153,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
     <label>Big Sabretooth Cat</label>
     <race>SmilodonPop</race>
 	<combatPower>185</combatPower>
-    	<wildSpawn_spawnWild>true</wildSpawn_spawnWild>
-    	<wildSpawn_EcoSystemWeight>0.25</wildSpawn_EcoSystemWeight>
+    	<ecoSystemWeight>0.25</ecoSystemWeight>
     <lifeStages>
       <li>
 	<label>Smilodon kitten</label>
@@ -156,7 +162,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           <drawSize>2.00</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>2.00</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -171,7 +177,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>2.5</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -185,7 +191,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
@@ -200,7 +206,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           	</shadowData>
         	</bodyGraphicData>
         	<dessicatedBodyGraphicData>
-          	<texPath>Things/Pawn/Animal/Dessicated/CritterDessicatedMedium</texPath>
+          	<texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
           	<drawSize>3.0</drawSize>
         	</dessicatedBodyGraphicData>
       		</li>

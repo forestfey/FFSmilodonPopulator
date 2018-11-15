@@ -3,9 +3,6 @@
 
   <SmilodonPop.label>Саблезуб</SmilodonPop.label>
   <SmilodonPop.description>Доисторический Smilodon populator (лат.  смилодон-разрушитель), так же известный как самый большой из саблезубых кошек - все еще является легендарныйм хищником в галактике. Почти вымерший в начале пути человечества к вершине пищевой цепи на Старой Земле, был воссоздан с помощю продвинутых технологий клонирования учеными, которы посчитали хорошей идеей возродить эту грозу гоминнидов.  </SmilodonPop.description>
-  <SmilodonPop_Leather.label>шкура саблезуба</SmilodonPop_Leather.label>
-  <SmilodonPop_Leather.description>Шкура, снятая с саблезубой кошки.</SmilodonPop_Leather.description>
-  <SmilodonPop_Leather.stuffProps.stuffAdjective>шкуры саблезуба</SmilodonPop_Leather.stuffProps.stuffAdjective>
   <SmilodonPop_Meat.label>мясо саблезуба</SmilodonPop_Meat.label>
   <SmilodonPop_Meat.description>Сырое мясо саблезубой кошки.</SmilodonPop_Meat.description>
   <SmilodonPop_Corpse.label>туша саблезуба</SmilodonPop_Corpse.label>
