@@ -34,19 +34,19 @@
     <visible>false</visible>
     <reproductive>true</reproductive>
   </LifeStageDef>
-  
+
   <LifeStageDef>
     <defName>AnimalSeniorFF</defName>
     <label>senior</label>
     <voxPitch>0.85</voxPitch>
-	<bodySizeFactor>1.45</bodySizeFactor>
+    <bodySizeFactor>1.45</bodySizeFactor>
     <hungerRateFactor>0.9</hungerRateFactor>
     <marketValueFactor>1.2</marketValueFactor>
-     <statFactors>
+    <statFactors>
       <MoveSpeed>0.95</MoveSpeed>
     </statFactors>
     <reproductive>true</reproductive>
   </LifeStageDef>
-  
-  
+
+
 </Defs>

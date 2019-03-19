@@ -9,8 +9,8 @@
   <subSounds>
     <li>
       <grains>
-      	<li Class="AudioGrain_Clip">
-      	  <clipPath>SmilodonPop/Pawn_SmilodonPop_Call</clipPath>
+        <li Class="AudioGrain_Clip">
+          <clipPath>SmilodonPop/Pawn_SmilodonPop_Call</clipPath>
         </li>
       </grains>
       <volumeRange>
@@ -38,8 +38,8 @@
   <subSounds>
     <li>
       <grains>
-      	<li Class="AudioGrain_Clip">
-      	  <clipPath>SmilodonPop/Pawn_SmilodonPop_Angry</clipPath>
+        <li Class="AudioGrain_Clip">
+          <clipPath>SmilodonPop/Pawn_SmilodonPop_Angry</clipPath>
         </li>
       </grains>
       <volumeRange>
@@ -67,8 +67,8 @@
   <subSounds>
     <li>
       <grains>
-      	<li Class="AudioGrain_Clip">
-      	  <clipPath>SmilodonPop/Pawn_SmilodonPop_Wounded</clipPath>
+        <li Class="AudioGrain_Clip">
+          <clipPath>SmilodonPop/Pawn_SmilodonPop_Wounded</clipPath>
         </li>
       </grains>
       <volumeRange>
@@ -96,8 +96,8 @@
   <subSounds>
     <li>
       <grains>
-      	<li Class="AudioGrain_Clip">
-      	  <clipPath>SmilodonPop/Pawn_SmilodonPop_Death</clipPath>
+        <li Class="AudioGrain_Clip">
+          <clipPath>SmilodonPop/Pawn_SmilodonPop_Death</clipPath>
         </li>
       </grains>
       <volumeRange>
