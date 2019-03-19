@@ -5,14 +5,13 @@
   <ThingDef ParentName="AnimalThingBase" ADogSaidBody="LegsTail">
     <defName>SmilodonPop</defName>
     <label>Big Sabretooth Cat</label>
-    <description>The prehistoric Smilodon Populator (LUND, A.D. 1842), also known as the biggest of the true sabre-toothed cats, still has a legedary reputation across the whole galaxy. Having already been extinct when humanity had cemented its global-player position in the foodchain of Old Earth, some scientists apparently thought it was a good idea to revive this hominid's Nemesis through advanced cloning techniques. 
+    <description>The prehistoric Smilodon Populator (LUND, A.D. 1842), also known as the biggest of the true sabre-toothed cats, still has a legendary reputation across the whole galaxy. Having already been extinct when humanity had cemented its global-player position in the foodchain of Old Earth, some scientists apparently thought it was a good idea to revive this hominid's Nemesis through advanced cloning techniques.
 
-It is still relatively unclear what specific function the enormous canine teeth fulfill, as their comparably frail static forbids regular and successful use as a weapon; The proportions and angles of the jaw and teeth's points suggest though, that Smilodon hunted very large, herbivorous animals with slashing bites after subduing its prey, possibly still puncturing the jugular vein and/or carotid artery like recent big cats do during their death-bite to the throat. 
+It is still relatively unclear what specific function the enormous canine teeth fulfill, as their comparably frail static forbids regular and successful use as a weapon; The proportions and angles of the jaw and teeth's points suggest though, that Smilodon hunted very large, herbivorous animals with slashing bites after subduing its prey, possibly still puncturing the jugular vein and/or carotid artery like recent big cats do during their death-bite to the throat.
 Adaptions of the bone-structure in the legs further hint on S. Populator having excellent jumping- and wrestling capabilities. As unified ethologists take note, the stories from survivors or even just witnesses of attacks for actual verification of this behavior are regretfully rare.
 
 Tribal cultures on planets where a wild population could establish itself, worship S. Populator as a harbinger of death, a powerful totem that bestows not only physical prowess, but also a to others sometimes uncanny covert- and relentlessness. Those cultures also pass on fairy tales about heroic Sabretooth-Veterans that are not only a terrifying sight to behold, but also seem to show an almost human spark of cognition, not to say "intelligence", sometimes even to the point of attributing to them the ability of speech.</description>
-
-<statBases>
+    <statBases>
       <Mass>275</Mass>
       <MoveSpeed>7.0</MoveSpeed>
       <ComfyTemperatureMin>-40</ComfyTemperatureMin>
@@ -91,18 +90,18 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       <baseHealthScale>2.75</baseHealthScale>
       <foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
 
-	<wildBiomes>
-	<Tundra>0.025</Tundra>
-	<IceSheet>0.008</IceSheet>
-	<SeaIce>0.0025</SeaIce>
-	<TropicalRainforest>0.035</TropicalRainforest>
-	<TemperateForest>0.04</TemperateForest>
-	<BorealForest>0.035</BorealForest>
-	<AridShrubland>0.025</AridShrubland>
-	<Desert>0.008</Desert>
-	<ExtremeDesert>0.0025</ExtremeDesert>
-	<!-- <Cave>0.05</Cave> -->
-        </wildBiomes>
+      <wildBiomes>
+        <Tundra>0.025</Tundra>
+        <IceSheet>0.008</IceSheet>
+        <SeaIce>0.0025</SeaIce>
+        <TropicalRainforest>0.035</TropicalRainforest>
+        <TemperateForest>0.04</TemperateForest>
+        <BorealForest>0.035</BorealForest>
+        <AridShrubland>0.025</AridShrubland>
+        <Desert>0.008</Desert>
+        <ExtremeDesert>0.0025</ExtremeDesert>
+        <!-- <Cave>0.05</Cave> -->
+      </wildBiomes>
 
       <leatherDef>Leather_Panthera</leatherDef>
       <trainability>Advanced</trainability>
@@ -111,39 +110,39 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       <manhunterOnDamageChance>1</manhunterOnDamageChance>
       <gestationPeriodDays>30.0</gestationPeriodDays>
       <lifeExpectancy>25</lifeExpectancy>
-	<lifeStageAges>
-	        <li>
-	          <def>AnimalBabyFF</def>
-	          <minAge>0.0</minAge>
-	        </li>
-	        <li>
-	          <def>AnimalJuvenileFF</def>
-	          <minAge>1.0</minAge>
-	        </li>
-	        <li>
-	          <def>AnimalAdultFF</def>
-	          <minAge>3.5</minAge>
-	          <soundWounded>Pawn_SmilodonPop_Wounded</soundWounded>
-		  <soundCall>Pawn_SmilodonPop_Call</soundCall>
-	          <soundDeath>Pawn_SmilodonPop_Death</soundDeath>
-	          <soundAngry>Pawn_SmilodonPop_Angry</soundAngry>
-		 </li>
-			<li>
-	          	<def>AnimalSeniorFF</def>
-	          	<minAge>12.5</minAge>
-	          	<soundWounded>Pawn_SmilodonPop_Wounded</soundWounded>
-			<soundCall>Pawn_SmilodonPop_Call</soundCall>
-	          	<soundDeath>Pawn_SmilodonPop_Death</soundDeath>
-	          	<soundAngry>Pawn_SmilodonPop_Angry</soundAngry>
-	        	</li> 
-	 </lifeStageAges>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBabyFF</def>
+          <minAge>0.0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenileFF</def>
+          <minAge>1.0</minAge>
+        </li>
+        <li>
+          <def>AnimalAdultFF</def>
+          <minAge>3.5</minAge>
+          <soundWounded>Pawn_SmilodonPop_Wounded</soundWounded>
+          <soundCall>Pawn_SmilodonPop_Call</soundCall>
+          <soundDeath>Pawn_SmilodonPop_Death</soundDeath>
+          <soundAngry>Pawn_SmilodonPop_Angry</soundAngry>
+        </li>
+        <li>
+          <def>AnimalSeniorFF</def>
+          <minAge>12.5</minAge>
+          <soundWounded>Pawn_SmilodonPop_Wounded</soundWounded>
+          <soundCall>Pawn_SmilodonPop_Call</soundCall>
+          <soundDeath>Pawn_SmilodonPop_Death</soundDeath>
+          <soundAngry>Pawn_SmilodonPop_Angry</soundAngry>
+        </li>
+      </lifeStageAges>
       <soundMeleeHitPawn>Pawn_Melee_BigBash_HitPawn</soundMeleeHitPawn>
       <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
-      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss> 
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
     </race>
-	<tradeTags>
-      <li>StandardAnimal</li>
-      <li>BadassAnimal</li>
+    <tradeTags>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
 
@@ -151,23 +150,23 @@ Tribal cultures on planets where a wild population could establish itself, worsh
     <defName>SmilodonPop</defName>
     <label>Big Sabretooth Cat</label>
     <race>SmilodonPop</race>
-	<combatPower>185</combatPower>
-    	<ecoSystemWeight>0.25</ecoSystemWeight>
+    <combatPower>185</combatPower>
+    <ecoSystemWeight>0.25</ecoSystemWeight>
     <lifeStages>
       <li>
-	<label>Smilodon kitten</label>
+        <label>Smilodon kitten</label>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/SmilodonPop/Baby/SmilodonBaby</texPath>
           <drawSize>2.00</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
-          <drawSize>2.00</drawSize>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+          <drawSize>1.95</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <label>Smilodon adolescent</label>
-	  <bodyGraphicData>
+        <bodyGraphicData>
           <texPath>Things/Pawn/Animal/SmilodonPop/Juvenile/SmilodonJuv</texPath>
           <drawSize>2.5</drawSize>
           <shadowData>
@@ -176,39 +175,39 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
-          <drawSize>2.5</drawSize>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+          <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/SmilodonPop/Adult/SmilodonPop</texPath>
-          <drawSize>2.4</drawSize>
+          <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
-          <drawSize>2.4</drawSize>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+          <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
-		<li>
-		<label>Smilodon veteran</label>
-        	<bodyGraphicData>
-          	<texPath>Things/Pawn/Animal/SmilodonPop/Veteran/SmilodonVet</texPath>
-          	<drawSize>3.0</drawSize>
-          	<shadowData>
-            	<volume>(0.4, 0.4, 0.4)</volume>
-            	<offset>(0,0,-0.1)</offset>
-          	</shadowData>
-        	</bodyGraphicData>
-        	<dessicatedBodyGraphicData>
-          	<texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
-          	<drawSize>3.0</drawSize>
-        	</dessicatedBodyGraphicData>
-      		</li>
+      <li>
+        <label>Smilodon veteran</label>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/SmilodonPop/Veteran/SmilodonVet</texPath>
+          <drawSize>3.0</drawSize>
+          <shadowData>
+            <volume>(0.4, 0.4, 0.4)</volume>
+            <offset>(0,0,-0.1)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+          <drawSize>3.0</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
     </lifeStages>
   </PawnKindDef>
   <!--===============================================-->
