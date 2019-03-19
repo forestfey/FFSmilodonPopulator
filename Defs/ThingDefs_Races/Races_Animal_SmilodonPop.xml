@@ -161,8 +161,8 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           <drawSize>2.00</drawSize>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
-          <drawSize>2.00</drawSize>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+          <drawSize>1.95</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -176,22 +176,22 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
-          <drawSize>2.5</drawSize>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+          <drawSize>2.4</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
         <bodyGraphicData>
           <texPath>Things/Pawn/Animal/SmilodonPop/Adult/SmilodonPop</texPath>
-          <drawSize>2.4</drawSize>
+          <drawSize>2.5</drawSize>
           <shadowData>
             <volume>(0.4, 0.4, 0.4)</volume>
             <offset>(0,0,-0.1)</offset>
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
-          <drawSize>2.4</drawSize>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
+          <drawSize>2.6</drawSize>
         </dessicatedBodyGraphicData>
       </li>
       <li>
@@ -205,7 +205,7 @@ Tribal cultures on planets where a wild population could establish itself, worsh
           </shadowData>
         </bodyGraphicData>
         <dessicatedBodyGraphicData>
-          <texPath>Things/Pawn/Animal/Cougar/Dessicated_Cougar</texPath>
+          <texPath>Things/Pawn/Animal/Labrador/Dessicated_Labrador</texPath>
           <drawSize>3.0</drawSize>
         </dessicatedBodyGraphicData>
       </li>
