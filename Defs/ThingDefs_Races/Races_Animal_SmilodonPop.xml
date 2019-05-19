@@ -142,8 +142,8 @@ Tribal cultures on planets where a wild population could establish itself, worsh
       <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss> 
     </race>
 	<tradeTags>
-      <li>StandardAnimal</li>
-      <li>BadassAnimal</li>
+      <li>AnimalUncommon</li>
+      <li>AnimalFighter</li>
     </tradeTags>
   </ThingDef>
 
