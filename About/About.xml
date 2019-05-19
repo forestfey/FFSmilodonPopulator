@@ -2,6 +2,8 @@
 <ModMetaData>
   <name>FFSmilodon caravaneer</name>
   <author>forestfey, Lazuli</author>
-  <targetVersion>1.0.0</targetVersion>
+  <supportedVersions>
+		<li>1.0</li>
+	</supportedVersions>
   <description> Adds a +/- new but quite rare apex predator to biomes, Smilodon Populator, also known as big sabre-toothed cat. Comes with 4 different sprites for its different developmental stages. Doesn't turn down human meat and is quite strong, so beware! Caravan-ready with modified pack textures.</description>
 </ModMetaData>
